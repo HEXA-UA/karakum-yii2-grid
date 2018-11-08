@@ -1,0 +1,34 @@
+{
+    "name": "karakum/yii2-grid",
+    "description": "This extension provides enhanced grid view, tree grid view",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "extension",
+        "treeview",
+        "treegrid",
+        "tree"
+    ],
+    "homepage": "https://github.com/karakum/yii2-grid",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrey Shertsinger",
+            "email": "andrey@shertsinger.ru",
+            "role": "Maintainer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/karakum/yii2-grid/issues",
+        "source": "https://github.com/karakum/yii2-grid"
+    },
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/jquery-treegrid": "0.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "karakum\\grid\\": ""
+        }
+    }
+}
